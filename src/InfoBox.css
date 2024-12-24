@@ -1,0 +1,104 @@
+
+.InfoBox {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}   
+
+.InfoBox img {
+    width: 100%;
+    height: auto; /* Ensures the image maintains its aspect ratio */
+    max-height: 200px; /* Sets a maximum height for the image */
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.InfoBox h4 {
+    font-size: 1.8rem;
+    color: #FFE5B4;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; /* Bold font weight for h4 */
+}
+span{
+    position: relative;
+    transform: translate(5px,2px);
+}
+
+.InfoBox p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal; /* Normal font weight for paragraphs */
+}
+
+/* @media screen and (max-width: 600px) {
+    .InfoBox {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .InfoBox img {
+        max-height: 150px; 
+    }
+
+    .InfoBox h4 {
+        font-size: 1.5rem;
+        margin-bottom: 15px; 
+    }
+
+    .InfoBox p {
+        font-size: 1rem;
+        margin: 8px 0; 
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .InfoBox {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    .InfoBox img {
+        max-height: 150px; /* Smaller max height for smaller screens */
+    }
+
+    .InfoBox h4 {
+        font-size: 1.5rem;
+        margin: 15px;
+    }
+
+    .InfoBox p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .InfoBox {
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .InfoBox img {
+        max-height: 120px; /* Smaller max height for smaller screens */
+    }
+
+    .InfoBox h4 {
+        font-size: 1.3rem;
+        margin: 10px;
+    }
+
+    .InfoBox p {
+        font-size: 1rem;
+    }
+}

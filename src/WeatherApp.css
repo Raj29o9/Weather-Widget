@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHdhdGVyfGVufDB8fHx8MTYyNzU4NjIwNA&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size:cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    color: #ffffff;
+}
+
+.WeatherApp {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    color: #87CEFA;   /*#F4A460*/
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .WeatherApp {
+        padding: 15px;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .WeatherApp {
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+}
+
+@media screen and (min-height: 800px){
+      
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
